@@ -1,0 +1,36 @@
+.main {
+  background-image: url('/img/fondo.jpg'); /* Ruta a tu imagen de fondo de fútbol */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  color: #fdf4f4;
+  }
+  .container__list {
+  list-style-type: none;
+  padding: 0;
+  }
+  .list {
+  margin-bottom: 5px;
+  }
+  .title {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+  }
+  .nameclub {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid rgb(29, 84, 185);
+  }
+  .container__list li img {
+    max-width: 100px; 
+    border-radius: 50%; /*borde redondeado a las imágenes */
+    margin-top: 10px; 
+  }  
